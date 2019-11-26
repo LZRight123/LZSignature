@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'LZSignature'
-  spec.version          = '1.0.1'
+  spec.version          = '1.0.2'
   spec.license          = { :type => 'BSD' }
   spec.homepage         = 'https://github.com/LZRight123/LZSignature'
   spec.author           = 'Uber'
@@ -22,3 +22,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc     = true
   spec.ios.deployment_target = '9.0'
 end
+
+# pod trunk push LZSignature.podspec --allow-warnings
