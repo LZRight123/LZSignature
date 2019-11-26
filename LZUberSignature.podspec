@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
-  spec.name             = 'LZUberSignature'
+  spec.name             = 'LZSignature'
   spec.version          = '1.0.0'
   spec.license          = { :type => 'BSD' }
-  spec.homepage         = 'https://github.com/LZRight123/UberSignature'
+  spec.homepage         = 'https://github.com/LZRight123/LZSignature'
   spec.author           = 'Uber'
   spec.summary          = 'Draw signatures in Swift and Objective-C.'
-  spec.source           = { :git => 'https://github.com/LZRight123/UberSignature.git', :tag => spec.version }
+  spec.source           = { :git => 'https://github.com/LZRight123/LZSignature', :tag => spec.version }
   # spec.subspec 'ObjC' do |cs|
   #   cs.source_files = 'Sources/ObjC/**/*.{h,m}',
   #   cs.private_header_files = 'Sources/ObjC/Internal/*.h'
